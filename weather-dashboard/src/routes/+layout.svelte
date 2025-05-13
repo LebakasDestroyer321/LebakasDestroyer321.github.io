@@ -1,7 +1,7 @@
 <script>
 	import '../app.css';
-	
-	let { children } = $props();
 </script>
 
-{@render children()}
+<main class="p-4 max-w-3xl mx-auto">
+  <slot />
+</main>
