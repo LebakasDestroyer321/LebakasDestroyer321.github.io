@@ -5,8 +5,8 @@ import adapter from '@sveltejs/adapter-static';
 export default {
   kit: {
     adapter: adapter({
-      pages: 'docs',
-      assets: 'docs',
+      pages: '../docs',
+      assets: '../docs',
       fallback: 'index.html',
       strict: false
     })
